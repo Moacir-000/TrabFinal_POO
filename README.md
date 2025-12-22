@@ -1,9 +1,7 @@
 # TrabFinal_POO
 Trabalho final de POO 2025.2
 Tema: Venda de ingressos para shows/eventos
-samia help
-aaaaa
-tentavi5000
+editado por Samia
 fff
 aaakaka
 cu

@@ -1,5 +1,3 @@
-
-
 public class Evento {
     private String nome;
     private String local;

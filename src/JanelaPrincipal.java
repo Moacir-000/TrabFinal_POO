@@ -47,7 +47,6 @@ public class JanelaPrincipal extends JFrame {
         setVisible(true);
     }
 
-
     private JPanel criarTelaMenu() {
         JPanel painel = new JPanel(new GridBagLayout());
         painel.setBackground(new Color(245, 245, 250));
@@ -222,7 +221,7 @@ public class JanelaPrincipal extends JFrame {
                                       evento.getNome(), cliente.nome, tipo, total);
         
         ArquivoUtil.salvarVenda(dados);
-        JOptionPane.showMessageDialog(this, "Compra feita com Sucesso!\n" + dados);
+        JOptionPane.showMessageDialog(this, "Compra feita com sucesso!\n" + dados);
     }
 
     public static void main(String[] args) {

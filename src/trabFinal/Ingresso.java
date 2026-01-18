@@ -1,11 +1,15 @@
+package trabFinal;
+
 public abstract class Ingresso implements Vendavel{
     protected static int totalIngressosVendidos;
-    protected String codigo;
     protected Evento evento;
 
-    public Ingresso(String codigo, Evento evento) {
-        this.codigo = codigo;
+    public Ingresso(Evento evento) {
         this.evento = evento;
         totalIngressosVendidos++;
+    }
+
+    public Evento getEvento() {
+        return evento;
     }
 }

@@ -1,9 +1,11 @@
+package trabFinal;
+
 public class IngressoVIP extends Ingresso{
     private double precoBase;
     private double adicionalVIP;
 
-    public IngressoVIP(String codigo, Evento evento, double precoBase, double adicionalVIP) {
-        super(codigo, evento);
+    public IngressoVIP(Evento evento, double precoBase, double adicionalVIP) {
+        super(evento);
         this.precoBase = precoBase;
         this.adicionalVIP = adicionalVIP;
     }

@@ -1,8 +1,10 @@
+package trabFinal;
+
 public class IngressoComum extends Ingresso{
     private double preco;
 
-    public IngressoComum(String codigo, Evento evento, double preco) {
-        super(codigo, evento);
+    public IngressoComum(Evento evento, double preco) {
+        super(evento);
         this.preco = preco;
     }
 
